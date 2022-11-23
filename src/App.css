@@ -1,0 +1,80 @@
+
+.leaflet-container {
+  width:80vw;
+  height: 80vh;;
+}
+.map-leaflet {
+  padding: 20px 20px 80px 20px;
+  background: white;
+  position: relative;
+  margin-top: 20px;
+}
+.map-leaflet .close {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+}
+
+.btn-primary {
+  background: #18397A;
+  color:white;
+  text-align: center;
+}
+.locations  {
+  background: white;
+  color: #18397A;
+  border: 1px solid #18397A;
+  margin-top: 20px;
+
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  padding: 10px 20px;
+  gap: 12px;
+  border-radius: 4px;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+
+.save {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.styled-table {
+  min-width: 100%;
+}
+.styled-table thead tr {
+  color: black;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 10px 50px 10px 0px;
+}
+
+.loading {
+  background-image: url("loading-gif.gif");
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  text-align: center;
+  right: 50%;
+}
